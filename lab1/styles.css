@@ -1,0 +1,17 @@
+p {
+    font-size: 12pt;
+    text-indent:1cm;
+    margin-left:15%;
+    margin-right:15%;
+    text-align:justify;
+    font-family: "arial";
+    color:blue 
+}
+H2 {
+    font-size: 14pt;
+    text-indent:1cm;
+    margin-left:15%;
+    margin-right:15%;
+    font-family: Verdana, Arial Cyr, Arial;
+    color:blue
+}
