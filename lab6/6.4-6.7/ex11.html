@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Относительное позиционирование</title>
+    <style type="text/css">
+        #title1,
+        #title2,
+        #title3,
+        #col1,
+        #col2,
+        #col3 {
+            font-family: Verdana, Arial, sans-serif;
+            font-weight: bold;
+            font-size: 80%;
+            color: white;
+            width: 200px;
+            border: 1px solid black;
+        }
+        
+        #col1,
+        #col2,
+        #col3 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 100%;
+            font-weight: normal;
+            color: black;
+        }
+        
+        #col1,
+        #title1 {
+            position: absolute;
+        }
+        
+        #col2,
+        #title2 {
+            position: relative;
+            left: 205px;
+        }
+        
+        #col3,
+        #title3 {
+            position: relative;
+            left: 410px;
+        }
+        
+        #col1,
+        #col2,
+        #col3 {
+            top: 5px;
+        }
+        
+        .tr {
+            position: absolute;
+        }
+        
+        p {
+            margin: 5px;
+        }
+        
+        #title1 {
+            background: #b38541;
+        }
+        
+        #title2 {
+            background: #008159;
+        }
+        
+        #title3 {
+            background: #006077;
+        }
+        
+        #col1 {
+            background: #ebe0c5;
+        }
+        
+        #col2 {
+            background: #bbe1c4;
+        }
+        
+        #col3 {
+            background: #add0d9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tr">
+        <div id="title1">
+            <p>Чебурашка</p>
+        </div>
+        <div id="title2">
+            <p>Гена</p>
+        </div>
+    </div>
+    <div id="title3">
+        <p>Шапокляк</p>
+    </div>
+    <div class="tr">
+        <div id="col1">
+            <p>...</p>
+        </div>
+        <div id="col2">
+            <p>...</p>
+        </div>
+    </div>
+    <div id="col3">
+        <p>...</p>
+    </div>
+</body>
+
+</html>
